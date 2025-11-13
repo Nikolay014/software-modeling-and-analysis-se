@@ -1,0 +1,77 @@
+
+----- [USER] (15 записа)
+INSERT INTO [USER] (USERNAME, EMAIL, [PASSWORD], FIRST_NAME, LAST_NAME, PHONE_NUMBER, GENDER, BIRTH_DATE, COUNTRY, CITY) VALUES
+('ivan123', 'ivan123@gmail.com', 'pass123', 'Ivan', 'Petrov', '0888123456', 'M', '1998-03-15', 'Bulgaria', 'Sofia'),
+('maria_pop', 'maria.pop@gmail.com', 'pass123', 'Maria', 'Popova', '0888345678', 'F', '1995-06-12', 'Bulgaria', 'Plovdiv'),
+('georgi_t', 'georgi.t@gmail.com', 'pass123', 'Georgi', 'Todorov', '0899123456', 'M', '2000-10-05', 'Bulgaria', 'Varna'),
+('ani_d', 'ani.d@gmail.com', 'pass123', 'Anita', 'Dimitrova', '0877123456', 'F', '1997-11-20', 'Bulgaria', 'Burgas'),
+('petar_k', 'petar.k@gmail.com', 'pass123', 'Petar', 'Kolev', '0888999999', 'M', '1999-04-02', 'Bulgaria', 'Ruse'),
+('elena_m', 'elena.m@gmail.com', 'pass123', 'Elena', 'Mihaylova', '0898888888', 'F', '1998-09-10', 'Bulgaria', 'Stara Zagora'),
+('nikolay_p', 'nikolay.p@gmail.com', 'pass123', 'Nikolay', 'Petkanov', '0888333333', 'M', '1994-12-30', 'Bulgaria', 'Pleven'),
+('stefka_v', 'stefka.v@gmail.com', 'pass123', 'Stefka', 'Vasileva', '0877333333', 'F', '1993-01-15', 'Bulgaria', 'Sofia'),
+('viktor_s', 'viktor.s@gmail.com', 'pass123', 'Viktor', 'Stoyanov', '0897444444', 'M', '1996-08-21', 'Bulgaria', 'Varna'),
+('iva_t', 'iva.t@gmail.com', 'pass123', 'Iva', 'Toneva', '0888222222', 'F', '2001-02-11', 'Bulgaria', 'Plovdiv'),
+('martin_g', 'martin.g@gmail.com', 'pass123', 'Martin', 'Georgiev', '0888555555', 'M', '1997-05-05', 'Bulgaria', 'Sofia'),
+('kristina_a', 'kristina.a@gmail.com', 'pass123', 'Kristina', 'Alexandrova', '0877999999', 'F', '1999-07-18', 'Bulgaria', 'Pleven'),
+('yordan_n', 'yordan.n@gmail.com', 'pass123', 'Yordan', 'Nikolov', '0888444444', 'M', '1992-03-09', 'Bulgaria', 'Burgas'),
+('vesela_k', 'vesela.k@gmail.com', 'pass123', 'Vesela', 'Kirova', '0897666666', 'F', '1998-11-25', 'Bulgaria', 'Varna'),
+('todor_m', 'todor.m@gmail.com', 'pass123', 'Todor', 'Marinov', '0877555555', 'M', '1995-01-07', 'Bulgaria', 'Sofia');
+
+
+-- Review (50 записа)
+INSERT INTO REVIEW (TITLE, RATING, COMMENT, CREATED_AT, USER_ID, PRODUCT_ID) VALUES
+('Excellent phone', 5, 'Fast and elegant', '2025-01-06', 1, 52),
+('Very good model', 4, 'Improved camera', '2025-01-07', 2, 2),
+('Awesome battery', 5, 'Lasts long time', '2025-01-08', 3, 3),
+('Solid performance', 4, 'Runs all apps smoothly', '2025-01-09', 4, 4),
+('Best Samsung yet', 5, 'Perfect display', '2025-01-10', 5, 5),
+('Affordable and nice', 4, 'Good for daily use', '2025-01-11', 6, 6),
+('Excellent laptop', 5, 'Works perfectly', '2025-01-12', 7, 7),
+('Premium quality', 5, 'Solid build', '2025-01-13', 8, 8),
+('Powerful gaming machine', 5, 'Great FPS', '2025-01-14', 9, 9),
+('Compact and elegant', 4, 'Lightweight', '2025-01-15', 10, 10),
+('Good everyday use', 4, 'Perfect for office', '2025-01-16', 11, 11),
+('Best sound ever', 5, 'Noise canceling top', '2025-01-17', 12, 12),
+('Good earbuds', 4, 'Nice fit', '2025-01-18', 13, 13),
+('Comfortable', 4, 'Battery could be longer', '2025-01-19', 14, 14),
+('Amazing camera', 5, 'Sharp and clear', '2025-01-20', 15, 15),
+
+('Excellent camera body', 5, 'Worth the price', '2025-01-21', 1, 16),
+('Compact and useful', 4, 'Perfect for travel', '2025-01-22', 2, 17),
+('Fun console', 5, 'Family entertainment', '2025-01-23', 3, 18),
+('Great OLED screen', 5, 'Beautiful colors', '2025-01-24', 4, 19),
+('Powerful console', 5, 'Loads fast', '2025-01-25', 5, 20),
+('Useful fryer', 4, 'Easy to clean', '2025-01-26', 6, 21),
+('Good blender', 4, 'Makes smoothies fast', '2025-01-27', 7, 22),
+('Nice toaster', 3, 'Small but works fine', '2025-01-28', 8, 23),
+('Must-have book', 5, 'Great for developers', '2025-01-29', 9, 24),
+('Excellent reading', 5, 'Timeless classic', '2025-01-30', 10, 25),
+('Good learning book', 4, 'Useful examples', '2025-01-31', 11, 26),
+('Good cream', 4, 'Smooth skin', '2025-02-01', 12, 27),
+('Nice shampoo', 5, 'Hair feels great', '2025-02-02', 13, 28),
+('Great mascara', 5, 'Adds volume', '2025-02-03', 14, 29),
+('Soft t-shirt', 5, 'Very comfy', '2025-02-04', 15, 30),
+
+('Perfect jeans', 5, 'Good quality denim', '2025-02-05', 1, 31),
+('Nice hoodie', 4, 'Warm and soft', '2025-02-06', 2, 32),
+('Good vacuum', 4, 'Strong suction', '2025-02-07', 3, 33),
+('Smooth ironing', 5, 'Heats fast', '2025-02-08', 4, 34),
+('Clean air', 5, 'Breathes better now', '2025-02-09', 5, 35),
+('Good football', 4, 'Durable', '2025-02-10', 6, 36),
+('Nice racket', 5, 'Lightweight', '2025-02-11', 7, 37),
+('Great mat', 4, 'Good grip', '2025-02-12', 8, 38),
+('Fun toy set', 5, 'Lots of parts', '2025-02-13', 9, 39),
+('Cool car model', 4, 'Good details', '2025-02-14', 10, 40),
+('Very stable', 5, 'Great for car', '2025-02-15', 11, 41),
+('Fast charging', 5, 'Charges phone fast', '2025-02-16', 12, 42),
+('Bright lights', 4, 'Easy to install', '2025-02-17', 13, 43),
+('Good hose', 4, 'Flexible and strong', '2025-02-18', 14, 44),
+('Strong mower', 5, 'Cuts well', '2025-02-19', 15, 45),
+
+('Comfortable gloves', 4, 'Durable material', '2025-02-20', 1, 46),
+('Delicious recipes', 5, 'Tasty meals', '2025-02-21', 2, 47),
+('Precise mouse', 5, 'Perfect for gaming', '2025-02-22', 3, 48),
+('Great smartwatch', 5, 'Tracks fitness perfectly', '2025-02-23', 4, 49),
+('Solid keyboard', 4, 'Good typing feel', '2025-02-24', 5, 50);
+
+SELECT * FROM product
